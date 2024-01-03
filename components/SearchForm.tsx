@@ -86,7 +86,7 @@ function SearchForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="flex flex-col lg:flex-row lg:max-w-6xl lg:mx-auto items-center justify-center space-x-0 lg:space-x-0.5 space-y-4 lg:space-y-0 rounded-lg"
+        className="flex flex-col lg:flex-row lg:max-w-6xl lg:mx-auto items-center justify-center space-x-0 lg:-space-x-1 space-y-4 lg:space-y-0 rounded-lg"
       >
         <div className="grid w-full lg:max-w-sm items-center gap-1.5">
           <FormField
@@ -96,7 +96,7 @@ function SearchForm() {
               <FormItem>
                 <FormLabel className="text-white flex">
                   Location
-                  <BedDoubleIcon className="ml-2 h-4 w-4 text-white" />
+                  <BedDoubleIcon className="ml-2 h-3 w-4 text-white" />
                 </FormLabel>
 
                 <FormMessage />
@@ -166,7 +166,7 @@ function SearchForm() {
           />
         </div>
 
-        <div className="flex w-full items-center space-x-0.5">
+        <div className="flex w-full items-center -space-x-1">
           <div className="grid items-center flex-1">
             <FormField
               control={form.control}
@@ -216,7 +216,7 @@ function SearchForm() {
           </div>
 
           <div className="mt-auto">
-            <Button type="submit" className="bg-blue-500 text-base">
+            <Button type="submit" className="bg-blue-500 text-base border-4 border-yellow-400 ">
               Search
             </Button>
           </div>

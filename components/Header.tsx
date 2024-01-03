@@ -44,9 +44,9 @@ function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#1c2f6c]">
+    <header className="bg-[#013B94] px-2 pb-24">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between pt-6 "
         aria-label="Global"
       >
         <div className="flex lg:flex-1">

@@ -22,7 +22,7 @@ function Footer() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className="bg-[#1c2f6c] my-11">
+        <header className="bg-[#013B94] ">
             <nav
                 className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-2"
                 aria-label="Global"
@@ -89,7 +89,7 @@ function Footer() {
                     </div>
                 </Popover.Group>
 
-                <div className=" lg:flex lg:flex-1 lg:justify-end">
+                <div className=" hidden lg:flex lg:flex-1 lg:justify-end">
                     <a href="#" className="text-lg font-semibold text-gray-400">
                         © Diana Zawislak 2004
                     </a>
@@ -104,6 +104,7 @@ function Footer() {
             >
                 <div className="fixed inset-0 z-10" />
 
+
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#013B94] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
@@ -114,6 +115,8 @@ function Footer() {
                                 alt=""
                             />
                         </a>
+
+    
                         <button
                             type="button"
                             className="-m-2.5 rounded-md p-2.5 text-white"
@@ -154,9 +157,7 @@ function Footer() {
                                 </a>
                             </div>
 
-                            <div className="py-6">
-                            
-                            </div>
+
                         </div>
                     </div>
                 </Dialog.Panel>
